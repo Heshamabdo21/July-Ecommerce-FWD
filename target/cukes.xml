@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="72.728">
+<testcase classname="F01_Register | users could use register functionality to open new accounts" name="user could register with valid fristname and lastname and email and password and confirmPassword" time="3.305">
+<system-out><![CDATA[Given user go to register page..............................................passed
+When user lregister with valid fristname and lastname and email and password and confirmPassword.passed
+And user press on register button...........................................passed
+Then user register to the system successfully...............................passed
+And user logout to login page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Login | users could use login functionality to open their accounts" name="user could login with valid email and password" time="2.121">
+<system-out><![CDATA[Given user go to login page.................................................passed
+When user login with valid email and password...............................passed
+Then user login to the system successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F03_RestPassword | users could use Rest password functionality" name="users could use Rest password with vaild email" time="5.703">
+<system-out><![CDATA[Given user go to Rest page..................................................passed
+When user rest with valid email.............................................passed
+And user press on Recover button............................................passed
+Then user rest password successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Search | users will be able to search for products with different parameters" name="user could login with valid email and password" time="1.958">
+<system-out><![CDATA[Given user go to login page before sreach...................................passed
+When user login  before search with valid email and password................passed
+Then user login to the system successfully before search....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Search | users will be able to search for products with different parameters" name="user could search for product using fullname" time="1.038">
+<system-out><![CDATA[Given user clicks on search field...........................................passed
+When user search with name of product.......................................passed
+Then user could find relative results.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F05_switch_between_currencies |  Logged User could switch between currencies US-Euro" name="user could switch between currencies" time="0.817">
+<system-out><![CDATA[Given user in home page.....................................................passed
+When user detierment to Euro................................................passed
+Then user switch between currencies US-Euro successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="F06_select_different_Categories |  Logged user could select different Categories" name="user could select different Categories" time="1.663">
+<system-out><![CDATA[Given Logged user in home page..............................................passed
+When user detierment to Categories and Hover to sub_Categories..............passed
+Then Click on sub categories successfully...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F07_filter_with_colorfeature |  Logged user could filter with color" name="user could filter with color" time="0.762">
+<system-out><![CDATA[Given Logged user in home page to Filter....................................passed
+When user determined to Categories like Apparel > Shoes.....................passed
+And Filter with blue color..................................................passed
+Then filtertion successfully................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F08_Productstag | Logged user could select different tags" name="user could filter with color" time="5.473">
+<system-out><![CDATA[Given Logged user in Any Category to select Popular tags....................passed
+When user determined to tags and assert successfully........................passed
+And tags determined assert successfully.....................................passed
+Then user Anthor detierment to tags and assert successfully.................passed
+And Anthor tags determined assert successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F09_AddShoppingcart |  Logged user could add different products to Shopping cart" name="_2" time="7.307">
+<system-out><![CDATA[Given Logged user could add different products to Shopping cart.............passed
+When user add Frist products to Shopping cart...............................passed
+And assert shopping cart have Frist product.................................passed
+Then user add Scoend products to Shopping cart..............................passed
+And assert shopping cart have Scoend product................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F10_AddWishlistcart | Logged user could add different products to Wishlist" name="_2" time="6.207">
+<system-out><![CDATA[Given Logged user could add different products to Wishlist cart.............passed
+When user add Frist products to Wishlist cart...............................passed
+And user add Scoend products to Wishlist cart...............................passed
+Then assert Wishlist cart have two product..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F11_Addtocomparecart | Logged user could add different products to compare list" name="could add different products to compare list" time="9.555">
+<system-out><![CDATA[Given Logged user could add different products to compare cart..............passed
+When user add Frist products to compare cart................................passed
+And user add Scoend products to compare cart................................passed
+Then assert compare cart have two product...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="F12CreatesuccessfulOrder | Create successful Order" name="User Can Create Syccessful Order" time="15.844">
+<system-out><![CDATA[Given User Go to Shopping cart..............................................passed
+When user Complete Data to create order.....................................passed
+Then assert user created order successful...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
